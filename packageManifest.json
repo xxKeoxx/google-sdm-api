@@ -22,17 +22,20 @@
 			"namespace": "dkilgore90",
 			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-camera.groovy",
 			"required": false
-		},		{
+		},		
+		{
 			"name": "Google Nest Display",
 			"namespace": "dkilgore90",
 			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-display.groovy",
 			"required": false
 		},
+		{
 			"name": "Google Nest Doorbell",
 			"namespace": "dkilgore90",
 			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-doorbell.groovy",
 			"required": false
 		},
+		{
 			"name": "Google Nest Thermostat",
 			"namespace": "dkilgore90",
 			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-thermostat.groovy",
