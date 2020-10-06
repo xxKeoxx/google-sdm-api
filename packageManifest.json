@@ -9,10 +9,34 @@
 	"communityLink": "https://community.hubitat.com/t/pre-release-google-sdm-api-nest-integration/52226",
 	"apps" : [
 		{
-			"id" : "2e6b1674-a87b-41a8-bd65-5cbbf78d842e",
-			"name": "Hubitat Package Manager",
-			"location": "https://raw.githubusercontent.com/dcmeglio/hubitat-packagemanager/master/apps/Package_Manager.groovy",
-			"required": true
+			"name": "Google SDM Api",
+			"namespace": "dkilgore90",
+			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-app.groovy",
+			"required": true,
+			"oauth": true
+		}
+	],
+	"drivers" : [
+		{
+			"name": "Google Nest Camera Driver",
+			"namespace": "dkilgore90",
+			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-camera.groovy",
+			"required": false
+		},		{
+			"name": "Google Nest Display",
+			"namespace": "dkilgore90",
+			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-display.groovy",
+			"required": false
+		},
+			"name": "Google Nest Doorbell",
+			"namespace": "dkilgore90",
+			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-doorbell.groovy",
+			"required": false
+		},
+			"name": "Google Nest Thermostat",
+			"namespace": "dkilgore90",
+			"location": "https://raw.githubusercontent.com/dkilgore90/google-sdm-api/master/sdm-api-thermostat.groovy",
+			"required": false
 		}
 	]
 }
