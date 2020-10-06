@@ -1,12 +1,12 @@
 {
-	"packageName": "Hubitat Package Manager",
+	"packageName": "Google SDM Api - App and Drivers for Hubitat Elevation",
 	"minimumHEVersion": "2.2.1",
-	"author": "Dominick Meglio",
+	"author": "dkilgore90",
 	"version": "1.6.0",
-	"dateReleased": "2020-07-28",
-	"releaseNotes": "Added an option to receive individual notifications of each package updated. Added support for installing files into file manager.",
-	"documentationLink": "https://github.com/dcmeglio/hubitat-packagemanager/blob/master/README.md",
-	"communityLink": "https://community.hubitat.com/t/beta-hubitat-package-manager/38016",
+	"dateReleased": "2020-09-30",
+	"releaseNotes": "Added support for Hubitat Package Manager",
+	"documentationLink": "https://github.com/dkilgore90/google-sdm-api/blob/master/README.md",
+	"communityLink": "https://community.hubitat.com/t/pre-release-google-sdm-api-nest-integration/52226",
 	"apps" : [
 		{
 			"id" : "2e6b1674-a87b-41a8-bd65-5cbbf78d842e",
